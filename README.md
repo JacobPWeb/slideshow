@@ -12,7 +12,7 @@ Create the following code in your html file.
   <div class="slideSelector"></div>
 </div>
 ```
-To invoke the slideshow you need to call the init function with certain parameters and pass in a javascript object.
+To invoke the slideshow you need to call the init function with certain parameters and pass in a javascript object. Place this code after the main content of your site.
 ```
 <script>
 	slideShow.init({
@@ -30,3 +30,5 @@ auto (boolean) is whether or not the slideshow will automatically scroll.
 timer (int) only has an effect if the auto option is set to true.
 
 controls (boolean) is whether or not you want control buttons to be generated, so the user can navigate slides manually.
+
+You will need to add styling to make it pretty!
